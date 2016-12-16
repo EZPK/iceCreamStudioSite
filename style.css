@@ -34,7 +34,7 @@ body, html{
 ul{
     margin:0;
     background-color: rgba(0,0,0,0.3);
-    position:absolute;
+    height:120px;
 }
 
 li{
@@ -50,23 +50,43 @@ li a{
 }
 
 h1{
+    position: absolute;
+    z-index:9999;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 25vh;
     font-size: 5em;
 }
 
 .wrapper{
-    height:100vh;
     width:100%;
     margin:auto;
-    background: url("http://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Ice-Cream-PNG/Ice_Cream_Cup_PNG_Clipart_Picture.png?m=1421922918") center no-repeat;
+    padding: 0;
 }
 
-div.wrapper.ng-scope{
-    padding-top:1px;
+.firstScreen{
+    height:calc(100vh - 120px );
+    padding: 0;
 }
 
-.test{
+.imgFirstScreen{
+    padding: 0;
+    z-index:2;
+    width:468px;
+    height:600px;
+    position:relative;
+    margin:auto;
+}
+
+.imgFirstScreen img{
+    position:absolute;
+    left:0;
+    top:0;
+    -moz-animation: spin 3s linear infinite;
+}
+@-moz-keyframes spin { 33% { -moz-transform: rotate(15deg);} }
+
+
+.secondScreen{
     height:100vh;
     width:100%;
     margin:auto;
