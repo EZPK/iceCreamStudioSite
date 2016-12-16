@@ -1,0 +1,62 @@
+/* Put your css in here */
+*{
+    font-family: 'Lato', serif;
+
+}
+
+.red{
+    background-color: #1D3557;
+    /*transition: all ease-out 1s;*/
+
+}
+
+.bodyAbout{
+    background-color: #457B9D;
+    transition: all ease-out 1s;
+
+}
+
+.bodyWork{
+    background-color: #A8DADC;
+    transition: all ease-out 1s;
+}
+
+.bodyContact{
+    background-color: #EA4A66;
+    transition: all ease-out 1s;
+}
+
+li{
+    list-style: none;
+    display:inline-block;
+    margin:auto 12%;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+    font-size: 2em;
+    font-family: 'Arvo', serif;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 260px;
+    font-size: 5em;
+}
+
+.wrapper{
+    display:block;
+    height:100vh;
+    width:100%;
+    margin:auto;
+}
+
+.test{
+    display:block;
+    height:300px;
+    width:100%;
+    margin:auto;
+    background-color: red;
+}
