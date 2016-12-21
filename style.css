@@ -1,4 +1,4 @@
-/* generals rules*/
+/* general rules*/
 body, html{
     height:100%;
     margin:0;
@@ -17,14 +17,13 @@ body, html{
 .red{
     background-color: #1D3557;
     /*transition: all ease-out 1s;*/
-
 }
 
 /*body */
+
 .bodyAbout{
     background-color: #457B9D;
     transition: all ease-out 1s;
-
 }
 
 .bodyWork{
@@ -37,33 +36,7 @@ body, html{
     transition: all ease-out 1s;
 }
 
-
-/*navBar*/
-
-
-ul{
-    background-color: rgba(0,0,0,0.3);
-    height:120px;
-    display:block;
-}
-
-li{
-    list-style: none;
-    display:inline-block;
-}
-
-li a{
-    text-decoration: none;
-    color:black;
-    font-size: 5em;
-    font-family: 'Arvo', serif;
-}
-
-.nav{
-    position:relative;
-    width:100%;
-    margin:auto;
-}
+/*textBody*/
 
 h1{
     position: absolute;
@@ -74,11 +47,46 @@ h1{
     font-family: Bonkers;
 }
 
+
+/*navBar*/
+
+ul{
+    margin:0;
+    background-color: rgba(0,0,0,0.3);
+    height:120px;
+    list-style:none;
+    position:relative;
+}
+
+li{
+    display:inline-flex;
+    /*background-color: yellow;*/
+    margin:auto;
+    margin-top: 40px;
+    position:relative;
+    float:right;
+    left:-40%;
+}
+
+li a{
+    position:relative;
+    padding-left: 45px;
+    text-decoration: none;
+    color:black;
+    font-size:2em;
+    font-family: 'Arvo', serif;
+}
+
+
+/*wrapper*/
+
 .wrapper{
     width:100%;
     margin:auto;
     padding: 0;
 }
+
+/*firstScreen*/
 
 .firstScreen{
     height:calc(100vh - 120px );
@@ -102,6 +110,7 @@ h1{
 }
 @-moz-keyframes spin { 33% { -moz-transform: rotate(15deg);} }
 
+/*secondScreen*/
 
 .secondScreen{
     height:100vh;
@@ -110,13 +119,20 @@ h1{
 
 .contactSpeech{
     display:block;
-    background-color: #FFDB27;
     margin:auto;
+    padding-top: 300px;
     width: 60%;
 }
 
-.conctactSpeech p {
-    text-align: center;
+.contactSpeech p {
+  font-family: Bonkers;
+  font-size:2em;
+}
+
+.contactSpeech a {
+  font-family: Bonkers;
+  font-size:2em;
+  text-decoration: none;
 }
 
 
